@@ -4,7 +4,7 @@ end
 
 def using_insert(array, element)
   array = ["Ruby", "JavaScript", "Java", "C#", "Objective C", "C++", "PHP"]
-  array[4].insert("#{element}")
+  array[4].insert(element)
   
 end
 
