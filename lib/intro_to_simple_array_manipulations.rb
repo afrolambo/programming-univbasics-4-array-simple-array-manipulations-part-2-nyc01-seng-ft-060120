@@ -4,7 +4,7 @@ end
 
 array = []
 def using_insert(array, element)
-  array.insert(element[4])
+  array.insert(element.to_i[4])
 end
 
 def using_uniq
