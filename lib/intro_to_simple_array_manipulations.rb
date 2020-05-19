@@ -3,5 +3,16 @@ def using_concat(array1, array2)
 end
 
 def using_insert(array, element)
-  (array[4]).insert(element)
+  array[4].insert("#{element}"")
 end
+
+def using_uniq
+end
+
+def using_flatten
+end
+
+def using_delete
+end
+
+def using_delete_at
